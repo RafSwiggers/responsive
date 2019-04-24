@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22.5px;
+       }
+  div {
+    width: 100%;
+  }
+
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  body{
+    background-color: green;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+      }
+
+      div {
+      display: inline-block;
+      vertical-align: text-top;
+
+}
+
+  #small {
+    width: 66%;
+  }
+  #medium{
+    width: 33%;
+  }
+  #large{
+    position: relative;
+    width: 100%
+  }
+  }
+
+@media only screen and (min-width: 1000px) {
+  body{
+    background-color: blue;
+    font-family: 'Dokdo', cursive;
+    font-size: 20px;
+      }
+      div{
+        display: inline-block;
+      }
+      #small {
+        width: 33%;
+      }
+      #medium{
+        width: 33%;
+}
+      #large{
+        width: 33%;
+      }
